@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[user created successfully]]>
+    </line>
+    <line>
+      <![CDATA[user deleted successfully]]>
+    </line>
+    <line>
+      <![CDATA[user edited successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62" started-at="2019-02-13T07:32:25Z" finished-at="2019-02-13T07:32:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62" started-at="2019-02-13T07:32:25Z" finished-at="2019-02-13T07:32:25Z">
+      <class name="tuesday.DemoF">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:tuesday.DemoF@6d8a00e3]" name="createUser" duration-ms="16" started-at="2019-02-13T07:32:25Z" finished-at="2019-02-13T07:32:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[user created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:tuesday.DemoF@6d8a00e3]" name="deleteUser" duration-ms="0" started-at="2019-02-13T07:32:25Z" depends-on-methods="tuesday.DemoF.createUser" finished-at="2019-02-13T07:32:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[user deleted successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="editUser()[pri:0, instance:tuesday.DemoF@6d8a00e3]" name="editUser" duration-ms="0" started-at="2019-02-13T07:32:25Z" depends-on-methods="tuesday.DemoF.createUser" finished-at="2019-02-13T07:32:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[user edited successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+      </class> <!-- tuesday.DemoF -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
